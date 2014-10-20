@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="ico/favicon.ico">
+    <title>HanGee Hackathon</title>
+
+    <!-- Third Party Styles -->
+    <link href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Preloader -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/queryloader2.js"></script>
+    <script src="js/init_preloader.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="preloader global-color_sun" data-spy="scroll" data-target=".navbar">
+
+    <!-- Background Pattern -->
+    <div class="bg-pattern bg-pattern_vertical"></div>
+    <!-- Backstretch Carousel -->
+    <div class="backstretch-carousel"></div>
+
+    <!-- Sidebar Menu -->
+    <div class="sidebar-btn hidden"><i class="fa fa-bars fa-2x"></i></div>
+    <div class="sidebar-overlay hidden"></div>
+    <div class="sidebar sidebar-menu hidden">
+      <div class="sidebar-menu__title">Wolfram 1.0</div>
+      <ul class="sidebar-menu__ul">
+        <li><a href="#welcome"><i class="fa fa-home fa-fw"></i> Welcome</a></li>
+        <li><a href="#about"><i class="fa fa-info-circle fa-fw"></i> About</a></li>
+        <li><a href="#portfolio"><i class="fa fa-image fa-fw"></i> Portfolio</a></li>
+        <li><a href="#pricing"><i class="fa fa-money fa-fw"></i> Pricing</a></li>
+        <li><a href="#team"><i class="fa fa-users fa-fw"></i> Team</a></li>
+        <li><a href="#features"><i class="fa fa-asterisk fa-fw"></i> Features</a></li>
+        <li><a href="#contact-us"><i class="fa fa-envelope fa-fw"></i> Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Top Menu -->
+    <div class="navbar navbar-fixed-top navbar-inverse navbar-faded navbar-transparent" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">HanGee 黑客松</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#welcome">歡迎</a></li>
+            <li><a href="#about">介紹</a></li>
+            <li><a href="#portfolio">紀錄</a></li>
+            <li><a href="#pricing">活動</a></li>
+            <li><a href="#team">夥伴</a></li>
+            <li><a href="#features">理念</a></li>
+            <li><a href="#contact-us">聯絡</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <!-- Welcome screen -->
+    <div class="site-wrapper site-wrapper_welcome screen" id="welcome">
+      <div class="site-wrapper__inner">
+        <div class="cover-container">
+          <h1 class="site-wrapper-welcome__title">
+            創意 + 黑客松 = <span class="global-text-color">驚艷</span>
+          </h1>
+          <p class="site-wrapper-welcome__summary">
+            半夜睡不著嗎？那就不要睡了！
+          </p>
+          <div class="text-center">
+            <a class="btn btn-transparent site-wrapper-welcome__btn" href="#about">
+              瞭解更多
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About screen -->
+    <div class="site-wrapper site-wrapper_about screen" id="about">
+      <div class="site-wrapper__inner">
+        <div class="cover-container">
+          <h2 class="title">
+            <span class="global-text-color">黑客松</span> 是什麼 ? 可以吃嗎 ?
+          </h2>
+          <p class="title__sub-text">
+            黑客松（Hackathon）是黑客（Hack）與 馬拉松（Marathon）的複合字
+            <br />
+            用來表示一個「<span class="global-text-color">馬拉松式的黑客活動</span>」
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="about__item">
+                <div class="about-item__header">
+                  <div class="about-item-header__icon">
+                    <i class="fa fa-arrows-alt"></i>
+                  </div>
+                  <h3 class="about-item-header__title">黑客松 <br />不是比賽</h3>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="about-item__summary g-line-height-lg">
+                  一個讓設計人在閒暇時間，參與的開發運動。解放自己，做自己想做的設計和開發，挑戰自己，在有限時間內做出東西
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="about__item">
+                <div class="about-item__header">
+                  <div class="about-item-header__icon">
+                    <i class="fa fa-cogs"></i>
+                  </div>
+                  <h3 class="about-item-header__title">
+                    任何人 <br />都可以參加
+                  </h3>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="about-item__summary g-line-height-lg">
+                  黑客松是任何人都可以參加的活動，只要你有興趣、想實際參與多人設計和開發，無論你是學生、普通程式人員、還是新手設計師、初級自造者，都歡迎帶著學習、共樂的心前來參加！
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="about__item">
+                <div class="about-item__header">
+                  <div class="about-item-header__icon">
+                    <i class="fa fa-thumbs-up"></i>
+                  </div>
+                  <h3 class="about-item-header__title">
+                    自造、學習 <br />與交流
+                  </h3>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="about-item__summary g-line-height-lg">
+                  有高手大大、帥哥與美女人才們，有電有網路、有吃的有喝的，既然台灣的夏天嚴熱，當然還有附上空調視野絕佳的舒適環境，讓大家安心動手做設計、做開發！挑戰自我！
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio screen -->
+    <div class="site-wrapper site-wrapper_portfolio screen" id="portfolio">
+      <div class="site-wrapper__inner">
+        <div class="cover-container">
+          <h2 class="title">
+            歷屆活動 <span class="global-text-color">特寫</span>
+          </h2>
+          <p class="title__sub-text">
+            想體驗大夥一同 Hack 的樂趣嗎？快加入我們！！！
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 col-alt">
+              <div class="portfolio__item">
+                <a href="img/hangee-hackathon01_resized.jpg" data-lightbox="portfolio-item__img" data-title="拍照日期：2014/09/21">
+                  <div class="portfolio-item__img">
+                    <img class="img-responsive" src="img/hangee-hackathon01_resized.jpg" alt="...">
+                    <div class="portfolio-item-img__mask">
+                      <div class="portfolio-mask__container">
+                        <div class="portfolio-mask__inner">
+                          <div class="portfolio-mask-inner__icon animated fadeIn">
+                            <i class="fa fa-image fa-2x"></i>
+                          </div>
+                          <h4 class="portfolio-mask-inner__title animated fadeInUp">放大</h4>
+                          <p class="portfolio-mask-inner__summary animated fadeInDown">
+                            通宵 Hack，一定要燈光美氣氛佳
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-4 col-alt">
+              <div class="portfolio__item">
+                <a href="img/hangee-hackathon02.jpg" data-lightbox="portfolio-item__img" data-title="拍照日期：2014/09/21">
+                  <div class="portfolio-item__img">
+                    <img class="img-responsive" src="img/hangee-hackathon02_resized.jpg" alt="...">
+                    <div class="portfolio-item-img__mask">
+                      <div class="portfolio-mask__container">
+                        <div class="portfolio-mask__inner">
+                          <div class="portfolio-mask-inner__icon animated fadeIn">
+                            <i class="fa fa-image fa-2x"></i>
+                          </div>
+                          <h4 class="portfolio-mask-inner__title animated fadeInUp">放大</h4>
+                          <p class="portfolio-mask-inner__summary animated fadeInDown">
+                            <!-- -->
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-4 col-alt">
+              <div class="portfolio__item">
+                <a href="img/hangee-hackathon03.jpg" data-lightbox="portfolio-item__img" data-title="拍照日期：2014/09/21">
+                  <div class="portfolio-item__img">
+                    <img class="img-responsive" src="img/hangee-hackathon03_resized.jpg" alt="...">
+                    <div class="portfolio-item-img__mask">
+                      <div class="portfolio-mask__container">
+                        <div class="portfolio-mask__inner">
+                          <div class="portfolio-mask-inner__icon animated fadeIn">
+                            <i class="fa fa-image fa-2x"></i>
+                          </div>
+                          <h4 class="portfolio-mask-inner__title animated fadeInUp">放大</h4>
+                          <p class="portfolio-mask-inner__summary animated fadeInDown">
+                            <!-- -->
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 col-alt">
+              <div class="portfolio__item">
+                <a href="img/hangee-hackathon04.jpg" data-lightbox="portfolio-item__img" data-title="拍照日期：2014/09/21">
+                  <div class="portfolio-item__img">
+                    <img class="img-responsive" src="img/hangee-hackathon04_resized.jpg" alt="...">
+                    <div class="portfolio-item-img__mask">
+                      <div class="portfolio-mask__container">
+                        <div class="portfolio-mask__inner">
+                          <div class="portfolio-mask-inner__icon animated fadeIn">
+                            <i class="fa fa-image fa-2x"></i>
+                          </div>
+                          <h4 class="portfolio-mask-inner__title animated fadeInUp">放大</h4>
+                          <p class="portfolio-mask-inner__summary animated fadeInDown">
+                            <!-- -->
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-4 col-alt">
+              <div class="portfolio__item">
+                <a href="img/hangee-hackathon05.jpg" data-lightbox="portfolio-item__img" data-title="拍照日期：2014/09/21">
+                  <div class="portfolio-item__img">
+                    <img class="img-responsive" src="img/hangee-hackathon05_resized.jpg" alt="...">
+                    <div class="portfolio-item-img__mask">
+                      <div class="portfolio-mask__container">
+                        <div class="portfolio-mask__inner">
+                          <div class="portfolio-mask-inner__icon animated fadeIn">
+                            <i class="fa fa-image fa-2x"></i>
+                          </div>
+                          <h4 class="portfolio-mask-inner__title animated fadeInUp">放大</h4>
+                          <p class="portfolio-mask-inner__summary animated fadeInDown">
+                            <!-- -->
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-4 col-alt">
+              <div class="portfolio__item">
+                <a href="img/hangee-hackathon06.jpg" data-lightbox="portfolio-item__img" data-title="拍照日期：2014/09/21">
+                  <div class="portfolio-item__img">
+                    <img class="img-responsive" src="img/hangee-hackathon06_resized.jpg" alt="...">
+                    <div class="portfolio-item-img__mask">
+                      <div class="portfolio-mask__container">
+                        <div class="portfolio-mask__inner">
+                          <div class="portfolio-mask-inner__icon animated fadeIn">
+                            <i class="fa fa-image fa-2x"></i>
+                          </div>
+                          <h4 class="portfolio-mask-inner__title animated fadeInUp">放大</h4>
+                          <p class="portfolio-mask-inner__summary animated fadeInDown">
+                            <!-- -->
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing screen -->
+    <div class="site-wrapper site-wrapper_pricing screen" id="pricing">
+      <div class="site-wrapper__inner">
+        <div class="cover-container">
+          <h2 class="title">
+            近期 <span class="global-text-color">黑客松</span> 活動報名
+          </h2>
+          <p class="title__sub-text">
+            黑客松活動代號以 <span class="global-text-color"> 海賊王 One Piece </span> 角色名稱命名
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="pricing__item">
+                <div class="pricing-item__header">
+                  <div class="pricing-item-header__price">
+                    11月
+                  </div>
+                  <h3 class="pricing-item-header__title">
+                    活動代號<br />哥爾・D・羅傑
+                  </h3>
+                </div>
+                <div class="pricing-item__body">
+                  <p class="g-line-height-lg">
+                    <!-- -->
+                  <ul class="pricing-item-body__list fa-ul">
+                    <li>
+                      <i class="fa-li fa fa-ticket"></i>
+                      報名日期：即日起 ～ 10 月 31 日
+                    </li>
+                    <li>
+                      <i class="fa-li fa fa-calendar"></i>
+                      活動日期：1（六）09:00 ～ 2（日）19:00
+                    </li>
+                    <li>
+                      <i class="fa-li fa fa-map-marker"></i>
+                      活動地點：台北市大安區敦化南路二段 216 號 23 樓
+                    </li>
+                    <li>
+                      <i class="fa-li fa fa-warning"></i>
+                      注意事項：若遇颱風、地震、豪大雨及其它不可抗力因素而導致台北市人事局宣布停止上班，則本次活動依規定停辦
+                    </li>
+                  </ul>
+                  <div class="btn-white-outline">
+                    <a class="btn btn-white" href="#">立即報名</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="pricing__item">
+                <div class="pricing-item__header">
+                  <div class="pricing-item-header__price">
+                    12 月
+                  </div>
+                  <h3 class="pricing-item-header__title">
+                    活動代號<br />蒙其・D・魯夫
+                  </h3>
+                </div>
+                <div class="pricing-item__body">
+                  <p class="g-line-height-lg">
+                    <!-- -->
+                  <ul class="pricing-item-body__list fa-ul">
+                    <li>
+                      <i class="fa-li fa fa-ticket"></i>
+                      報名日期：即日起 ～ 12 月 5 日
+                    </li>
+                    <li>
+                      <i class="fa-li fa fa-calendar"></i>
+                      活動日期：6（六）09:00 ～ 6（日）19:00
+                    </li>
+                    <li>
+                      <i class="fa-li fa fa-map-marker"></i>
+                      活動地點：台北市大安區敦化南路二段 216 號 23 樓
+                    </li>
+                    <li>
+                      <i class="fa-li fa fa-warning"></i>
+                      注意事項：若遇颱風、地震、豪大雨及其它不可抗力因素而導致台北市人事局宣布停止上班，則本次活動依規定停辦
+                    </li>
+                  </ul>
+                  <div class="btn-white-outline">
+                    <a class="btn btn-white" href="#">尚未開放</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="pricing__item">
+                <div class="pricing-item__header">
+                  <div class="pricing-item-header__price">
+                    1月
+                  </div>
+                  <h3 class="pricing-item-header__title">
+                    活動代號<br />鋼鐵人 Iron Man
+                  </h3>
+                </div>
+                <div class="pricing-item__body">
+                  <p class="g-line-height-lg">
+                    <!-- -->
+                  <ul class="pricing-item-body__list fa-ul">
+                    <li>
+                      <i class="fa-li fa fa-ticket"></i>
+                      報名日期：即日起 ～ 01 月 02 日
+                    </li>
+                    <li>
+                      <i class="fa-li fa fa-calendar"></i>
+                      活動日期：3（六）09:00 ～ 4（日）19:00
+                    </li>
+                    <li>
+                      <i class="fa-li fa fa-map-marker"></i>
+                      活動地點：台北市大安區敦化南路二段 216 號 23 樓
+                    </li>
+                    <li>
+                      <i class="fa-li fa fa-warning"></i>
+                      注意事項：若遇颱風、地震、豪大雨及其它不可抗力因素而導致台北市人事局宣布停止上班，則本次活動依規定停辦
+                    </li>
+                  </ul>
+                  <div class="btn-white-outline">
+                    <a class="btn btn-white" href="#">尚未開放</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team screen -->
+    <div class="site-wrapper site-wrapper_team screen" id="team">
+      <div class="site-wrapper__inner">
+        <div class="cover-container">
+          <h2 class="title">
+            感謝合作夥伴們的力挺
+          </h2>
+          <p class="title__sub-text">
+            我們非常感謝擁有這些夥伴的支持，讓我們活動得以順利舉辦
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!-- Carousel -->
+              <div id="team__carousel" class="carousel slide" data-ride="carousel" data-interval="9999999">
+
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#team__carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#team__carousel" data-slide-to="1"></li>
+                  <li data-target="#team__carousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <!-- Item 1 -->
+                  <div class="item active">
+                    <div class="cover-container">
+                      <div class="sponsor-img">
+                        <img class="img-responsive" src="img/doit.png" alt="...">
+                      </div>
+
+                      <!--
+                      <div class="team-member__icon">
+                        <i class="fa fa-male fa-2x"></i>
+                      </div>
+                    -->
+                      <h2 class="team-member__title global-text-color">
+                        DOITT
+                      </h2>
+                      <h2 class="team-member__title">
+                        黃金級夥伴
+                      </h2>
+                      <p class="team-member__summary g-line-height-lg">
+                        DOIT Taiwan共創公域（DOITT），全名為 Delivering Open Innovations for Tomorrow，是為一青年科技創意實踐平台，由經濟部技術處支持，資策會產業情報研究所（MIC）青年領航學院負責執行，是為因應全球軟硬整合創新趨勢下，鼓勵及協助青年將創意實踐為產品或事業的青年平台，DOIT Taiwan 信仰開放式創新，一方面匯聚青年創意點子，協助媒合資源實踐，另一方面則希望影響產業擁抱開放，達成創新目的。
+                      </p>
+                      <div class="text-center">
+                        <a href="https://taiwan-doit.com" class="btn btn-transparent team-member__btn">連結</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Item 2 -->
+                  <div class="item">
+                    <div class="cover-container">
+                      <div class="sponsor-img">
+                        <img class="img-responsive" src="img/custard.png" alt="...">
+                      </div>
+
+                      <!--
+                      <div class="team-member__icon">
+                        <i class="fa fa-apple fa-2x"></i>
+                      </div>
+                    -->
+                      <h2 class="team-member__title global-text-color">
+                        卡市達
+                      </h2>
+                      <h2 class="team-member__title">
+                        黃金級夥伴
+                      </h2>
+                      <p class="team-member__summary g-line-height-lg">
+                        卡市達願意是創業者的家，是你與人事物之間溫暖而親近的共享空間，是更多實際的、虛擬的平台產生的源頭。
+                        卡市達創業加油站成立於2010年十月十日，一個致力於推動台灣創業風氣的育成中心，在塵囂中因夢想而存在，為創造國際永續創意生態系而努力。珍惜並尊重人與其所有的核心特質是我們的根本價值，提供與自然和諧共生和符合人性的創新是我們一貫的脈絡、速度，水平思考與扁平化是我們的處事態度。我們以身做則並自許成為榜樣，以行動為自己創造更好的生活，以熱情和愛來為更大的自己服務。
+                      </p>
+                      <div class="text-center">
+                        <a href="http://www.custardcream.org/" class="btn btn-transparent team-member__btn">連結</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Item 3 -->
+                  <div class="item">
+                    <div class="cover-container">
+                      <div class="sponsor-img">
+                        <img class="img-responsive" src="img/skywatch.jpg" alt="...">
+                      </div>
+
+                      <!--
+                      <div class="team-member__icon">
+                        <i class="fa fa-android fa-2x"></i>
+                      </div>
+                    -->
+                      <h2 class="team-member__title global-text-color">
+                        Skywatch
+                      </h2>
+                      <h2 class="team-member__title">
+                        黃金級夥伴
+                      </h2>
+                      <p class="team-member__summary g-line-height-lg">
+                        隨著頻寬改善、智慧型手機普及、網路攝影機在系統以及晶片端的漸趨成熟以及雲端服務的興起， 遠距雲端影像技術已漸漸深入中小企業以及家庭，帶來有別以往的應用價值。 這些新應用能延伸關懷、降低焦慮，使人人都有辦法和自己關心的事件連結在一起。 伴隨雲端影像的時代來臨，行品股份有限公司（Skywatch Innovation）創立於 2011年 11月，旨在帶給消費者方便、易用、可靠、安全的雲端影像產品，並以作為客戶與使用者的長期合作夥伴為目標。
+                      </p>
+                      <div class="text-center">
+                        <a href="https://www.skywatch24.com/tw" class="btn btn-transparent team-member__btn">連結</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#team__carousel" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#team__carousel" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features screen -->
+    <div class="site-wrapper site-wrapper_feedback screen" id="features">
+      <div class="site-wrapper__inner">
+        <div class="cover-container">
+          <h2 class="title">
+            黑客松理念
+          </h2>
+          <p class="title__sub-text">
+            重新塑造台灣的 Hackathon 生態
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-5 col-md-offset-1">
+              <div class="features__item">
+                <h2 class="features-item__title">
+                  <span class="global-text-color">01.</span>
+                  突破自己，挑戰極限
+                </h2>
+                <div class="features-item__summary">
+
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-5">
+              <div class="features__item">
+                <h2 class="features-item__title">
+                  <span class="global-text-color">02.</span>
+                  創新激盪，交流共享
+                </h2>
+                <div class="features-item__summary">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-5 col-md-offset-1">
+              <div class="features__item">
+                <h2 class="features-item__title">
+                  <span class="global-text-color">03.</span>
+                  培育文化，落地生根
+                </h2>
+                <div class="features-item__summary">
+
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-5">
+              <div class="features__item">
+                <h2 class="features-item__title">
+                  <span class="global-text-color">04.</span>
+                  實踐改變，刺激產業
+                </h2>
+                <div class="features-item__summary">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-5 col-md-offset-1">
+              <div class="features__item">
+                <h2 class="features-item__title">
+                  <span class="global-text-color">05.</span>
+                  開放創新，媒合跨界人才
+                </h2>
+                <div class="features-item__summary">
+
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-5">
+              <div class="features__item">
+                <h2 class="features-item__title">
+                  <span class="global-text-color">06.</span>
+                  產業整合，共創價值
+                </h2>
+                <div class="features-item__summary">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact screen -->
+    <div class="site-wrapper site-wrapper_contact screen" id="contact-us">
+      <div class="site-wrapper__inner">
+        <div class="cover-container">
+          <h2 class="title">
+            歡迎<span class="global-text-color">隨時</span>與我們聯繫
+          </h2>
+          <p class="title__sub-text">
+            如果您對黑客松有什麼建議或疑問，歡迎與我們聯繫。
+          </p>
+        </div>
+        <div class="container">
+          <div class="col-xs-6 col-sm-3">
+            <div class="contact__info g-line-height-lg">
+              <h4 class="contact-info__title">活動地址:</h4>
+              <a href="https://goo.gl/maps/HPyio" target="_blank">10669&nbsp;台北市大安區敦化南路二段 216 號 23 樓&nbsp;( DOIT 共創公域 )</a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <div class="contact__info g-line-height-lg">
+              <!--
+              <h4 class="contact-info__title">電話:</h4>
+              +886 911 610 692
+            -->
+              <h4 class="contact-info__title">Email:</h4>
+              contact@hangee.tw
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <form role="form" class="contact__form">
+              <div class="row form-group">
+                <div class="col-xs-6 col-md-4">
+                  <label for="email" class="sr-only">Your email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="您的 E-mail" data-original-title="" title="">
+                </div>
+                <div class="col-xs-6 col-md-4">
+                  <label for="name" class="sr-only">Your name</label>
+                  <input type="text" class="form-control" id="name" placeholder="您的大名" data-original-title="" title="">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message" class="sr-only">Your message</label>
+                <textarea class="form-control" rows="3" id="message" placeholder="您想告訴我們..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-transparent">發送</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/scrolltopcontrol.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/analytics.js"></script>
+  </body>
+</html>
