@@ -42,6 +42,7 @@ $(".backstretch-carousel").backstretch([
   "img/screen-bg_4.jpg",
   "img/screen-bg_5.jpg",
   "img/taipei101-8.jpg",
+  "img/taipei101-5.jpg",
   "img/screen-bg_6.jpg"
 ], {
     duration: 1000,
