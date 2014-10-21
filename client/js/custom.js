@@ -36,11 +36,12 @@ $('.screen:first').waypoint(function() {
 
 $(".backstretch-carousel").backstretch([
   "img/screen-bg_7.jpg",
-  "img/taipei101.jpg",
+  "img/taipei101-6.jpg",
   "img/screen-bg_2.jpg",
   "img/screen-bg_3.jpg",
   "img/screen-bg_4.jpg",
   "img/screen-bg_5.jpg",
+  "img/taipei101-8.jpg",
   "img/screen-bg_6.jpg"
 ], {
     duration: 1000,
