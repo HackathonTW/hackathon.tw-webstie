@@ -36,14 +36,15 @@ $('.screen:first').waypoint(function() {
 
 $(".backstretch-carousel").backstretch([
   "img/screen-bg_7.jpg",
-  "img/taipei101-6.jpg",
-  "img/screen-bg_2.jpg",
-  "img/screen-bg_3.jpg",
-  "img/screen-bg_4.jpg",
-  "img/screen-bg_5.jpg",
+  "img/taiwan01.jpg",
+  "img/taiwan02.jpg",
+  "img/taiwan03.jpg",
+  "img/taiwan04.jpg",
+  "img/taiwan05.jpg",
   "img/taipei101-8.jpg",
   "img/taipei101-5.jpg",
-  "img/screen-bg_6.jpg"
+  "img/taiwan07.jpg",
+  "img/taiwan08.jpg"
 ], {
     duration: 1000,
     fade: 1000
