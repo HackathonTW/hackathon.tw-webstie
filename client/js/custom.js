@@ -41,7 +41,7 @@ $(".backstretch-carousel").backstretch([
   "img/taiwan03.jpg",
   "img/taiwan04.jpg",
   "img/taiwan05.jpg",
-  "img/taipei101-8.jpg",
+  "img/taiwan09.jpg",
   "img/taipei101-5.jpg",
   "img/taiwan07.jpg",
   "img/taiwan08.jpg"
