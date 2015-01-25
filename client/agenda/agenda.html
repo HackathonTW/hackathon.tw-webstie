@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hackathon Taiwan 04 Agenda</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script type="text/javascript">
+    $(window).load(function() {    
+
+    var theWindow        = $(window),
+        $bg              = $("#bg"),
+        aspectRatio      = $bg.width() / $bg.height();
+                      
+    function resizeBg() {
+      
+      if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+          $bg
+            .removeClass()
+            .addClass('bgheight');
+      } else {
+          $bg
+            .removeClass()
+            .addClass('bgwidth');
+      }
+            
+    }
+                            
+    theWindow.resize(resizeBg).trigger("resize");
+
+    });
+  </script>
+
+</head>
+
+<body>
+  <img src="images/bg.jpg" id="bg" alt="">
+  <div class="container">
+    <table class="schedule" cellspacing="0">
+    <tr>
+      <td colspan="5" class="table_title">
+      <strong>第 四 屆 黑 客 松 議 程 表</strong>（Hackathon Taiwan 4th Agenda)
+      </td>
+    </tr>
+    <tr>
+      <td width="20%" class="td_styleA"></td>
+      <td width="20%" class="td_styleB">Hackathon</td>
+      <td width="20%" class="td_styleB">Node.js</td>
+      <td width="20%" class="td_styleB">QML</td>
+      <td width="20%" class="td_styleB">Arduino</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">08:00 - 08:30</td>
+      <td colspan="4" class="td_styleD">入場</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">08:30 - 10:30</td>
+      <td colspan="4" class="td_styleC">開場 &amp; 認識大家 &amp; We're a team!</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">10:30 - 12:30</td>
+      <td class="td_styleC">創作討論（創意發想）</td>
+      <td class="td_styleC">Node.js工作坊</td>
+      <td class="td_styleC">QML工作坊</td>
+      <td class="td_styleC">Arduino工作坊</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">12:30 - 14:00</td>
+      <td colspan="4" class="td_styleD">Lunch Time</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">14:00 - 16:00</td>
+      <td class="td_styleC">創作時間</td>
+      <td class="td_styleC">Node.js工作坊</td>
+      <td class="td_styleC">QML工作坊</td>
+      <td class="td_styleC">Arduino工作坊</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">16:00 - 17:00</td>
+      <td class="td_styleC">創作時間</td>
+      <td class="td_styleC">創作討論（創意發想）</td>
+      <td class="td_styleC">創作討論（創意發想）</td>
+      <td class="td_styleC">創作討論（創意發想）</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">17:00 - 18:00</td>
+      <td colspan="4" class="td_styleD">披薩之夜（Pizza Night）</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">18:00 - 21:00</td>
+      <td colspan="1" class="td_styleC">創作時間</td>
+      <td colspan="3" class="td_styleB">Maker工作坊</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">21:00 - 00:00</td>
+      <td colspan="4" class="td_styleC">創作時間</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">00:00 - 01:00</td>
+      <td colspan="4" class="td_styleD">Supper Time</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">01:00 - 07:30</td>
+      <td colspan="4" class="td_styleC">創作時間</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">07:30 - 08:30</td>
+      <td colspan="4" class="td_styleD">Breakfast Time</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">08:30 - 12:00</td>
+      <td colspan="4" class="td_styleC">創作時間</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">12:00 - 13:00</td>
+      <td colspan="4" class="td_styleD">Lunch Time</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">17:00 - 19:00</td>
+      <td colspan="4" class="td_styleC">Demo &amp; Sharing time</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">19:00 - 19:30</td>
+      <td colspan="4" class="td_styleD">Happy Ending</td>
+    </tr>
+    <tr>
+      <td class="td_styleA">19:30 - 20:30</td>
+      <td colspan="4" class="td_styleD">場復（工作人員）</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="td_styleA">備註事項：在黑客松期間，若遇口渴、肚子餓、想找人聊天、想家等問題，皆可找在旁的工作人員協助處理 ;-)</td>
+    </tr>
+    </table>
+  </div>
+
+
+</html>
