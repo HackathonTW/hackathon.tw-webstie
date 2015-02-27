@@ -1,0 +1,36 @@
+body {
+	background-color:rgb(40,60,65);
+}
+
+.Main {
+	text-align: center;
+	padding-right: 10px;
+}
+
+.logo-img {
+	width: 140px;
+	margin: 10px 0px 30px 0px;
+	cursor: pointer;
+}
+
+.logo-img:hover {
+	width: 160px;
+	margin: 10px 0px 10px 0px;
+}
+.table {
+	cursor: default;
+	border-collapse: separate;
+    border-spacing: 2px
+}
+
+thead {
+	color: white;
+	background-color: rgb(46,103,97);
+}
+
+thead th {
+	text-align: center;
+}
+thead th:hover {
+	background-color: rgb(92,148,148);
+}

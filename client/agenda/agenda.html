@@ -1,136 +1,255 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Hackathon Taiwan 04 Agenda</title>
-  <link rel="stylesheet" href="styles/style.css">
-  <script type="text/javascript">
-    $(window).load(function() {    
+  <meta charset="utf-8">
+  <title>Hackathon Taiwan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    var theWindow        = $(window),
-        $bg              = $("#bg"),
-        aspectRatio      = $bg.width() / $bg.height();
-                      
-    function resizeBg() {
-      
-      if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
-          $bg
-            .removeClass()
-            .addClass('bgheight');
-      } else {
-          $bg
-            .removeClass()
-            .addClass('bgwidth');
-      }
-            
-    }
-                            
-    theWindow.resize(resizeBg).trigger("resize");
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 
-    });
-  </script>
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
 
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="img/favicon.png">
+  
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 </head>
 
 <body>
-  <img src="images/bg.jpg" id="bg" alt="">
-  <div class="container">
-    <table class="schedule" cellspacing="0">
-    <tr>
-      <td colspan="5" class="table_title">
-      <strong>第 四 屆 黑 客 松 議 程 表</strong>（Hackathon Taiwan 4th Agenda)
-      </td>
-    </tr>
-    <tr>
-      <td width="20%" class="td_styleA"></td>
-      <td width="20%" class="td_styleB">Hackathon</td>
-      <td width="20%" class="td_styleB">Node.js</td>
-      <td width="20%" class="td_styleB">QML</td>
-      <td width="20%" class="td_styleB">Arduino</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">08:00 - 08:30</td>
-      <td colspan="4" class="td_styleD">入場</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">08:30 - 10:30</td>
-      <td colspan="4" class="td_styleC">開場 &amp; 認識大家 &amp; We're a team!</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">10:30 - 12:30</td>
-      <td class="td_styleC">創作討論（創意發想）</td>
-      <td class="td_styleC">Node.js工作坊</td>
-      <td class="td_styleC">QML工作坊</td>
-      <td class="td_styleC">Arduino工作坊</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">12:30 - 14:00</td>
-      <td colspan="4" class="td_styleD">Lunch Time</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">14:00 - 16:00</td>
-      <td class="td_styleC">創作時間</td>
-      <td class="td_styleC">Node.js工作坊</td>
-      <td class="td_styleC">QML工作坊</td>
-      <td class="td_styleC">Arduino工作坊</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">16:00 - 17:00</td>
-      <td class="td_styleC">創作時間</td>
-      <td class="td_styleC">創作討論（創意發想）</td>
-      <td class="td_styleC">創作討論（創意發想）</td>
-      <td class="td_styleC">創作討論（創意發想）</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">17:00 - 18:00</td>
-      <td colspan="4" class="td_styleD">披薩之夜（Pizza Night）</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">18:00 - 21:00</td>
-      <td colspan="1" class="td_styleC">創作時間</td>
-      <td colspan="3" class="td_styleB">Maker工作坊</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">21:00 - 00:00</td>
-      <td colspan="4" class="td_styleC">創作時間</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">00:00 - 01:00</td>
-      <td colspan="4" class="td_styleD">Supper Time</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">01:00 - 07:30</td>
-      <td colspan="4" class="td_styleC">創作時間</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">07:30 - 08:30</td>
-      <td colspan="4" class="td_styleD">Breakfast Time</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">08:30 - 12:00</td>
-      <td colspan="4" class="td_styleC">創作時間</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">12:00 - 13:00</td>
-      <td colspan="4" class="td_styleD">Lunch Time</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">17:00 - 19:00</td>
-      <td colspan="4" class="td_styleC">Demo &amp; Sharing time</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">19:00 - 19:30</td>
-      <td colspan="4" class="td_styleD">Happy Ending</td>
-    </tr>
-    <tr>
-      <td class="td_styleA">19:30 - 20:30</td>
-      <td colspan="4" class="td_styleD">場復（工作人員）</td>
-    </tr>
-    <tr>
-      <td colspan="5" class="td_styleA">備註事項：在黑客松期間，若遇口渴、肚子餓、想找人聊天、想家等問題，皆可找在旁的工作人員協助處理 ;-)</td>
-    </tr>
-    </table>
-  </div>
-
-
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-1 column"></div>
+		<div class="col-md-10 col-xs-12 column Main">
+			<h3 class="text-center text-info" style="color: white; cursor: default">第五屆 Hackathon Taiwan 活動時程表</h3>
+			<a href="https://www.facebook.com/HackathonTaiwan?fref=ts" target="_blank">
+				<img alt="140x140" src="./img/Hackathon_Logo.jpg" class="img-circle logo-img">
+			</a>
+			<table class="table table-striped table-hover">
+				<thead>
+					<tr>
+						<th> Time \ Subject</th>
+						<th>
+							Hackathon
+						</th>
+						<th>
+							Node.js
+						</th>
+						<th>
+							QML
+						</th>
+						<th>
+							Arduino
+						</th>
+						<th>
+							mbed
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							08:00 ~ 08:30
+						</td>
+						<td colspan="5">
+							活動報到
+						</td>
+					</tr>
+					<tr class="active">
+						<td style="vertical-align:middle;">
+							08:30 ~ 09:30
+						</td>
+						<td colspan="5" >
+							活動正式開場<br/><br/>
+							認識大家 & We’re a team!
+						</td>
+					</tr>
+					<tr class="active">
+						<td>
+							09:30 ~ 10:00
+						</td>
+						<td colspan="5" >
+							Talk by 重量級神秘講師
+						</td>
+					</tr>
+					<tr class="success">
+						<td>
+							10:00 ~ 12:00
+						</td>
+						<td>
+							創意發想
+						</td>
+						<td class="node-1">
+							Node.js 工作坊
+						</td>
+						<td class="qml-1">
+							QML 與 C++ 的美麗邂逅
+						</td>
+						<td class="ard-1">
+							Arduino 101
+						</td>
+						<td class="mbed-1">
+							3D 建模與列印快速學習
+						</td>
+					</tr>
+					<tr class="warning">
+						<td>
+							12:00 ~ 14:00
+						</td>
+						<td colspan="5">
+							Lunch Time
+						</td>
+					</tr>
+					<tr class="success">
+						<td style="vertical-align:middle;">
+							14:00 ~ 16:00
+						</td>
+						<td style="vertical-align:middle;">
+							創意發想
+						</td>
+						<td class="node-2" style="vertical-align:middle;">
+							前端 101
+						</td>
+						<td class="qml-2">
+							QML + Arduino <br/>
+							虛實之間的完美結合
+						</td>
+						<td class="ard-2" style="vertical-align:middle;">
+							Arduino 藍藍路
+						</td>
+						<td class="mbed-2" style="vertical-align:middle;">
+							mbed 土炮家用氣象站
+						</td>
+					</tr>
+					<tr class="warning">
+						<td>
+							16:00 ~ 18:00
+						</td>
+						<td colspan="5">
+							創意發想
+						</td>
+					</tr>
+					<tr class="danger">
+						<td>
+							18:00 ~ 19:00
+						</td>
+						<td colspan="5">
+							Pizza Night!
+						</td>
+					</tr>
+					<tr class="warning">
+						<td>
+							19:00 ~ 00:00
+						</td>
+						<td colspan="5">
+							創意發想
+						</td>
+					</tr>
+					<tr class="danger">
+						<td>
+							00:00 ~ 01:00
+						</td>
+						<td colspan="5">
+							Midnight Snack
+						</td>
+					</tr>
+					<tr class="warning">
+						<td>
+							01:00 ~ 07:30
+						</td>
+						<td colspan="5">
+							創意發想
+						</td>
+					</tr>
+					<tr class="danger">
+						<td>
+							07:30 ~ 08:30
+						</td>
+						<td colspan="5">
+							Breakfast Time
+						</td>
+					</tr>
+					<tr class="warning">
+						<td>
+							08:30 ~ 12:00
+						</td>
+						<td colspan="5">
+							創意發想
+						</td>
+					</tr>
+					<tr class="danger">
+						<td>
+							12:00 ~ 13:00
+						</td>
+						<td colspan="5">
+							Lunch Time
+						</td>
+					</tr>
+					<tr class="warning">
+						<td>
+							13:00 ~ 17:00
+						</td>
+						<td colspan="5">
+							創意發想
+						</td>
+					</tr>
+					<tr class="danger">
+						<td style="vertical-align:middle;">
+							17:00 ~ 19:30
+						</td>
+						<td colspan="5">
+							Demo & Sharing Time <br/>
+							& Happy Ending
+						</td>
+					</tr>
+					<tr>
+						<td class="text-success" colspan="6" style="background-color: #FEFF91; font-size: larger; line-height: 80px;">
+							備 註 事 項 ：
+								在黑客松期間，若遇口渴、肚子餓、想找人聊天、想家等任何問題，皆可找在旁的工作人員協助處理 
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<dl class="dl-horizontal">
+				<dt>
+					<h3 style="color: white">活動日期</h3>
+				</dt>
+				<dd>
+					<h3 style="color: #84E1FF">2015 年 3 月 7 日 至 3 月 8日</h3>
+				</dd>
+				<dt>
+					<h3  style="color: white">活動地點</h3>
+				</dt>
+				<dd>
+					<h3 style="color: #84E1FF">台北科技大學 光華館一樓</h3>
+				</dd>
+				<dt>
+					<h3  style="color: white">報名網址</h3>
+				</dt>
+				<dd>
+					<h4 style="margin-top: 24px; style='color: #84E1FF' "><a href="http://www.accupass.com/go/hackathon05" target="_blank">http://www.accupass.com/go/hackathon05</a></h4>
+				</dd>
+			</dl>
+		</div>
+		<div class="col-md-1 column">
+		</div>
+	</div>
+</div>
+</body>
 </html>
