@@ -34,3 +34,17 @@ thead th {
 thead th:hover {
 	background-color: rgb(92,148,148);
 }
+td {
+		width: 5em;
+		line-height: 2em;
+		background-color: #fff;
+		font-weight: bold;
+}
+tr:hover {
+		color: black;
+		background-color: #000;
+}
+
+tr:hover td {
+		background-color: transparent;
+}
